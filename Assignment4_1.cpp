@@ -117,5 +117,10 @@ int main()
   for(int i=0;i<3;i++)
   arr[i]->printTime();
 
+  for(int i=0;i<3;i++)
+  delete arr[i];
+
+  delete[] arr; 
+
   return 0;
 }
