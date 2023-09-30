@@ -25,7 +25,7 @@ public:
     }
 };
 
-class manager: 
+class manager
 {
 private:
     float bonus;
